@@ -1,0 +1,47 @@
+.smile-gallery {
+  background:#2A9FBB;
+  h2 {
+    font-weight:900 !important;
+    color:#46727C !important;
+  }
+  p {
+    color:#424242;
+    margin-bottom:40px;
+  }
+  .col-1, .col-2, .smile-before {
+    height:100%;
+  }
+  .smile-before {
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+  }
+  @media (max-width:991px) {
+    .button {
+      margin-bottom:40px;
+    }
+  }
+  @media (max-width:480px) {
+    .button {
+      margin-bottom: 30px;
+    }
+    h2 {
+      margin-bottom:10px;
+    }
+  }
+
+  .before-after-wrap {
+    display:flex;
+    flex-wrap:nowrap;
+    padding-left:20px;
+    p {
+      width:50%;
+      font-weight: 700;
+      font-size: 20px;
+      color: #6E6E6D;
+      margin-top:5px;
+      letter-spacing: -0.5px;
+    }
+  }
+}
