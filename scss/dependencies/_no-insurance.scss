@@ -1,0 +1,92 @@
+.no-insurance {
+  background:url('../images/insurance.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:100% 100%;
+  padding:200px 0;
+  h2 {
+    font-size:64px;
+    color:#46727C;
+    font-weight:900 !important;
+    margin-bottom:20px;
+  }
+  h5 {
+    font-size:44px;
+    font-weight:600;
+    color:#5F8801;
+    margin-bottom:30px;
+  }
+  h6 {
+    color:#71706E;
+    font-size:40px;
+    font-weight:400;
+    line-height:50px;
+    margin-bottom:0;
+  }
+  .monthly-fee {
+    margin-bottom:30px;
+  }
+  p {
+    font-size:20px;
+    color:#393937;
+    margin-bottom:15px;
+  }
+  .button {
+    margin-top:60px;
+    max-width:275px;
+  }
+  @media (max-width:1200px) {
+    background-image:none;
+    padding:60px 0;
+    .col-1 {
+      text-align:center;
+    }
+    .button {
+      width:325px;
+      margin-top:40px;
+    }
+    h2 {
+      font-size:48px;
+      margin-bottom:10px;
+    }
+    h5 {
+      font-size:32px;
+    }
+    h6 {
+      font-size:28px;
+      line-height:35px;
+    }
+    p {
+      font-size:16px;
+    }
+    .button {
+      margin-top:30px;
+    }
+  }
+  @media (max-width:480px) {
+    padding:40px 0;
+    h2 {
+      font-size:32px;
+      margin-bottom:5px;
+    }
+    h5 {
+      font-size:20px;
+      margin-bottom:20px;
+    }
+    h6 {
+      font-size:18px;
+      line-height:24px;
+    }
+    .monthly-fee {
+      margin-bottom:20px;
+    }
+    p {
+      line-height:22px;
+    }
+  }
+}
+.no-insurance-bottom {
+  img {
+    width:100%;
+  }
+}

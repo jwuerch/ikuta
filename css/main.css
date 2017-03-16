@@ -25016,4 +25016,76 @@ h4.modal-title {
       font-size: 26px;
       line-height: 30px; } }
 
+.no-insurance {
+  background: url("../images/insurance.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  padding: 200px 0; }
+  .no-insurance h2 {
+    font-size: 64px;
+    color: #46727C;
+    font-weight: 900 !important;
+    margin-bottom: 20px; }
+  .no-insurance h5 {
+    font-size: 44px;
+    font-weight: 600;
+    color: #5F8801;
+    margin-bottom: 30px; }
+  .no-insurance h6 {
+    color: #71706E;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    margin-bottom: 0; }
+  .no-insurance .monthly-fee {
+    margin-bottom: 30px; }
+  .no-insurance p {
+    font-size: 20px;
+    color: #393937;
+    margin-bottom: 15px; }
+  .no-insurance .button {
+    margin-top: 60px;
+    max-width: 275px; }
+  @media (max-width: 1200px) {
+    .no-insurance {
+      background-image: none;
+      padding: 60px 0; }
+      .no-insurance .col-1 {
+        text-align: center; }
+      .no-insurance .button {
+        width: 325px;
+        margin-top: 40px; }
+      .no-insurance h2 {
+        font-size: 48px;
+        margin-bottom: 10px; }
+      .no-insurance h5 {
+        font-size: 32px; }
+      .no-insurance h6 {
+        font-size: 28px;
+        line-height: 35px; }
+      .no-insurance p {
+        font-size: 16px; }
+      .no-insurance .button {
+        margin-top: 30px; } }
+  @media (max-width: 480px) {
+    .no-insurance {
+      padding: 40px 0; }
+      .no-insurance h2 {
+        font-size: 32px;
+        margin-bottom: 5px; }
+      .no-insurance h5 {
+        font-size: 20px;
+        margin-bottom: 20px; }
+      .no-insurance h6 {
+        font-size: 18px;
+        line-height: 24px; }
+      .no-insurance .monthly-fee {
+        margin-bottom: 20px; }
+      .no-insurance p {
+        line-height: 22px; } }
+
+.no-insurance-bottom img {
+  width: 100%; }
+
 /*# sourceMappingURL=main.css.map */
