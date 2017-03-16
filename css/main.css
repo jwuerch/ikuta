@@ -24678,7 +24678,8 @@ section {
   padding: 20px 0;
   text-align: center;
   border-bottom: 5px solid #57A5B7;
-  border-top: 5px solid #57A5B7; }
+  border-top: 5px solid #57A5B7;
+  background-position: 50% 50%; }
   .phone-slug .row {
     text-align: center; }
   .phone-slug .col-sm-12 {
@@ -24979,5 +24980,40 @@ h4.modal-title {
 
 .team-modal .img-wrap {
   margin-bottom: 10px; }
+
+.reviews {
+  background-image: url("../images/reviews-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-attachment: fixed; }
+  .reviews h2 {
+    font-weight: 900 !important;
+    font-size: 44px;
+    margin-bottom: 50px; }
+  .reviews .bf-dv {
+    padding-top: 50px !important; }
+  .reviews .bf-spn {
+    color: #FFF;
+    font-size: 12px;
+    text-shadow: 0 2px 4px #000000; }
+    .reviews .bf-spn a {
+      color: #FFF !important; }
+      .reviews .bf-spn a:hover {
+        text-decoration: underline !important; }
+  @media (max-width: 991px) {
+    .reviews iframe {
+      max-height: 600px !important; }
+    .reviews h2 {
+      font-size: 36px; } }
+  @media (max-width: 768px) {
+    .reviews .bf-dv {
+      padding-top: 30px !important; }
+    .reviews iframe {
+      max-height: 450px !important; } }
+  @media (max-width: 480px) {
+    .reviews h2 {
+      font-size: 26px;
+      line-height: 30px; } }
 
 /*# sourceMappingURL=main.css.map */

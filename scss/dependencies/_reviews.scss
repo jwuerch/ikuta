@@ -1,0 +1,48 @@
+.reviews {
+  background-image:url('../images/reviews-bg.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:100% 100%;
+  background-attachment:fixed;
+  h2 {
+    font-weight:900 !important;
+    font-size:44px;
+    margin-bottom:50px;
+  }
+  .bf-dv {
+    padding-top:50px !important;
+  }
+  .bf-spn {
+    color:#FFF;
+    font-size: 12px;
+    text-shadow: 0 2px 4px #000000;
+    a {
+      color:#FFF !important;
+      &:hover {
+        text-decoration:underline !important;
+      }
+    }
+  }
+  @media (max-width:991px) {
+    iframe {
+      max-height:600px !important;
+    }
+    h2 {
+      font-size:36px;
+    }
+  }
+  @media (max-width:768px) {
+    .bf-dv {
+      padding-top:30px !important;
+    }
+    iframe {
+      max-height:450px !important;
+    }
+  }
+  @media (max-width:480px) {
+    h2 {
+      font-size:26px;
+      line-height:30px;
+    }
+  }
+}
