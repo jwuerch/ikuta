@@ -1,16 +1,21 @@
-.slide-1 {
-  background-image:url('../images/slide-1.jpg');
+.slide-1, .slide-2, .slide-3 {
   background-size:cover;
   background-repeat:no-repeat;
   background-position:100% 100% !important;
+}
+.slide-1 {
+  background-image:url('../images/slide-1.jpg');
+
   h1 {
     color: #92C717;
-    margin-bottom:50px;
+    margin-bottom:40px;
   }
 
   h2 {
     color:#FFF !important;
     margin-bottom:0;
+    font-weight:600 !important;
+    font-size:77.76px;
   }
   .we-love {
     margin-bottom:5px;
@@ -26,6 +31,63 @@
     background-position:75% 100% !important;
     .slider-caption {
       margin-top:-90px;
+    }
+    p {
+      font-size:20px;
+    }
+    .button {
+      max-width:300px;
+    }
+    h1 {
+      font-size:140px;
+    }
+    h2 {
+      font-size:68px;
+    }
+  }
+
+}
+.slide-2 {
+  background-image:url('../images/slide-2.jpg');
+  h2 {
+    font-size: 54px;
+    font-weight:900 !important;
+    color: #92C717 !important;
+    line-height: 66.4px;
+    margin-bottom:0;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.60) !important;
+  }
+  .icon-star3 {
+    color: #FFD900;
+    text-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+    font-size:50px;
+  }
+  .star-set {
+    margin-bottom:20px;
+  }
+  .patients {
+    margin-bottom:10px;
+  }
+  p {
+    font-size: 24px;
+    color: #FFFFFF;
+    line-height: 35px;
+    margin-bottom:30px;
+  }
+  .button {
+    max-width:250px;
+  }
+  @media (max-width:1450px) {
+    background-position:50% 100% !important;
+  }
+  @media (max-width:1200px) {
+    background-position:60% 100% !important;
+    h2 {
+      font-size:38px;
+      line-height:50px;
+    }
+    .slider-caption {
+      padding-right:100px;
     }
   }
 
