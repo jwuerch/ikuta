@@ -24990,6 +24990,29 @@ h4.modal-title {
 .team-modal .img-wrap, .service-modal .img-wrap {
   margin-bottom: 10px; }
 
+.smile-gallery-modal .owl-nav, .smile-gallery-modal .owl-prev, .smile-gallery-modal .owl-next {
+  background: #92C717 !important;
+  opacity: 1 !important;
+  color: #FFF !important; }
+  .smile-gallery-modal .owl-nav:hover, .smile-gallery-modal .owl-prev:hover, .smile-gallery-modal .owl-next:hover {
+    background: #92C717 !important;
+    color: #FFF !important; }
+
+.smile-gallery-modal .before-after-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 20px;
+  margin-top: 5px;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap; }
+  .smile-gallery-modal .before-after-wrap p {
+    width: 50%;
+    text-align: left; }
+
+.smile-gallery-modal p {
+  text-align: left; }
+
 .reviews {
   background-image: url("../images/reviews-bg.jpg");
   background-size: cover;

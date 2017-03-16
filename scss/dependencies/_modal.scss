@@ -42,3 +42,31 @@ h4.modal-title {
     margin-bottom:10px;
   }
 }
+
+
+.smile-gallery-modal {
+  .owl-nav, .owl-prev, .owl-next {
+    background:#92C717 !important;
+    opacity:1 !important;
+    color:#FFF !important;
+    &:hover {
+      background:#92C717 !important;
+      color:#FFF !important;
+    }
+  }
+  .before-after-wrap {
+    display:flex;
+    padding-left:20px;
+    margin-top:5px;
+    flex-wrap:nowrap;
+
+    p {
+      width:50%;
+      text-align:left;
+
+    }
+  }
+  p {
+    text-align:left;
+  }
+}
