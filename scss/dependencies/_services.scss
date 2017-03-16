@@ -1,0 +1,75 @@
+.services {
+  background-image:url('../images/services/cosmetic.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  height:800px;
+
+  h2 {
+    font-weight:900 !important;
+    font-size:48px;
+  }
+  p {
+    font-size:16px;
+    a {
+      text-decoration:underline;
+      color:#5F8801;
+    }
+  }
+  h3 {
+    font-size:48px;
+    font-weight:900;
+    color:#46727C;
+  }
+  .row-2 {
+    margin-top:100px;
+  }
+  @media (max-width:1200px) {
+    height:auto;
+    background:none;
+    .row-2 {
+      margin-top:0;
+    }
+  }
+  @media (max-width:991px) {
+    h2, h3 {
+      font-size:36px;
+      margin-bottom:15px;
+    }
+  }
+  @media (max-width:480px) {
+    h2, h3 {
+      font-size:28px;
+      margin-bottom:15px;
+    }
+  }
+}
+
+.services-two {
+  h3 {
+    font-size:36px;
+    font-weight:900;
+    color:#46727C;
+    margin-top:20px;
+    margin-bottom:10px;
+  }
+  p {
+    font-family:$arimo;
+    font-size: 16px;
+    color: #424242;
+    line-height: 24px;
+  }
+  .col-1, .col-2 {
+    padding:30px;
+  }
+  @media (max-width:1200px) {
+    padding:35px 0;
+    .col-1, .col-2 {
+      padding:0 10px;
+    }
+    h3 {
+      font-size:32px;
+      font-weight:700;
+      margin-top:15px;
+    }
+  }
+}

@@ -80,6 +80,9 @@ p {
  display:flex;
   justify-content:center;
 }
+.img-wrap {
+  text-align:center;
+}
 section {
   padding:60px 0;
   @media (max-width:768px) {
@@ -102,6 +105,7 @@ section {
 @import "dependencies/_modal.scss";
 @import "dependencies/_reviews.scss";
 @import "dependencies/_no-insurance.scss";
+@import "dependencies/_services.scss";
 
 // End My Dependencies //
 
