@@ -22,8 +22,13 @@ h1 {
 
 h2 {
   font-family: $open-sans;
-  line-height: 88px;
   text-transform:none !important;
+}
+h3 {
+  font-family:$open-sans;
+}
+h6 {
+  font-family:$open-sans;
 }
 p {
   font-family:$open-sans;
@@ -46,6 +51,7 @@ p {
   &:hover {
     text-decoration:none;
     background:#C56B15;
+    text-shadow:none;
   }
 }
 

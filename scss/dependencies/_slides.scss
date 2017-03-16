@@ -90,6 +90,54 @@
       padding-right:100px;
     }
   }
+}
+
+.slide-3 {
+  background-image: url('../images/slide-3.jpg');
+  h2 {
+    font-weight:900 !important;
+    font-size: 70px;
+    color: #92C717 !important;
+    margin-bottom:0;
+  }
+  h3 {
+    font-weight:600 !important;
+    font-size: 48px;
+    color: #FFFFFF;
+    letter-spacing: -0.3px;
+  }
+  h6 {
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom:0;
+    font-weight:400;
+    line-height:45px;
+  }
+  .monthly-fee {
+    margin-bottom:50px;
+  }
+  .button {
+    max-width:275px;
+  }
+  @media (max-width:1500px) {
+    background-position:85% 100% !important;
+  }
+  @media (max-width:1200px) {
+    background-position:70% 100% !important;
+    h2 {
+      font-size:56px;
+    }
+    h3 {
+      font-size:38px;
+    }
+    h6 {
+      font-size:30px;
+      line-height:40px;
+    }
+    .monthly-fee {
+      margin-bottom:40px;
+    }
+  }
 
 }
 

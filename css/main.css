@@ -24406,8 +24406,13 @@ h1 {
 
 h2 {
   font-family: "Open Sans", sans-serif;
-  line-height: 88px;
   text-transform: none !important; }
+
+h3 {
+  font-family: "Open Sans", sans-serif; }
+
+h6 {
+  font-family: "Open Sans", sans-serif; }
 
 p {
   font-family: "Open Sans", sans-serif;
@@ -24435,7 +24440,8 @@ p {
           justify-content: center; }
   .button:hover {
     text-decoration: none;
-    background: #C56B15; }
+    background: #C56B15;
+    text-shadow: none; }
 
 #header.full-header #primary-menu > ul {
   border-right: none;
@@ -24587,6 +24593,44 @@ p {
         line-height: 50px; }
       .slide-2 .slider-caption {
         padding-right: 100px; } }
+
+.slide-3 {
+  background-image: url("../images/slide-3.jpg"); }
+  .slide-3 h2 {
+    font-weight: 900 !important;
+    font-size: 70px;
+    color: #92C717 !important;
+    margin-bottom: 0; }
+  .slide-3 h3 {
+    font-weight: 600 !important;
+    font-size: 48px;
+    color: #FFFFFF;
+    letter-spacing: -0.3px; }
+  .slide-3 h6 {
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+    font-weight: 400;
+    line-height: 45px; }
+  .slide-3 .monthly-fee {
+    margin-bottom: 50px; }
+  .slide-3 .button {
+    max-width: 275px; }
+  @media (max-width: 1500px) {
+    .slide-3 {
+      background-position: 85% 100% !important; } }
+  @media (max-width: 1200px) {
+    .slide-3 {
+      background-position: 70% 100% !important; }
+      .slide-3 h2 {
+        font-size: 56px; }
+      .slide-3 h3 {
+        font-size: 38px; }
+      .slide-3 h6 {
+        font-size: 30px;
+        line-height: 40px; }
+      .slide-3 .monthly-fee {
+        margin-bottom: 40px; } }
 
 #slider, .swiper-container, .swiper-slide {
   max-height: 800px; }
