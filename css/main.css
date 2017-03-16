@@ -24411,7 +24411,7 @@ body #side-panel.dark #side-panel-trigger-close a {
 #header.full-header {
   border-bottom: none; }
 
-#header, #header-wrap, #logo img, #header.sticky-header:not(.static-sticky), #header.sticky-header:not(.static-sticky) #header-wrap, #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img {
+#header, #header-wrap, #logo img, #header.sticky-header:not(.static-sticky), #header.sticky-header:not(.static-sticky) #header-wrap, #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img, #logo {
   height: 100px; }
 
 #header-wrap {
@@ -24423,6 +24423,10 @@ body #side-panel.dark #side-panel-trigger-close a {
   @media (max-width: 1080px) {
     #logo img {
       padding: 14px 0; } }
+
+@media (max-width: 768px) {
+  #logo {
+    text-align: left; } }
 
 #header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
   padding-top: 39px;
@@ -24466,6 +24470,11 @@ body #side-panel.dark #side-panel-trigger-close a {
 
 #primary-menu-trigger {
   font-size: 25px;
-  color: #000; }
+  color: #000;
+  top: 25px; }
+  @media (max-width: 768px) {
+    #primary-menu-trigger {
+      left: initial;
+      right: 0; } }
 
 /*# sourceMappingURL=main.css.map */
