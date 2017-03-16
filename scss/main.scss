@@ -1,4 +1,6 @@
 $open-sans: 'Open Sans', sans-serif;
+$arial: 'Arial', sans-serif;
+$lato: 'Lato', sans-serif;
 
 // Canvas Dependencies //
 
@@ -9,7 +11,52 @@ $open-sans: 'Open Sans', sans-serif;
 @import "dependencies/_animate.scss";
 @import "dependencies/_dark.scss";
 @import "dependencies/_responsive.scss";
-@import "dependencies/_navbar.scss";
 
-// End Dependencies //
+// End Canvas Dependencies //
+
+h1 {
+  font-family: $arial;
+  font-size: 155px;
+  line-height:150px;
+}
+
+h2 {
+  font-family: $open-sans;
+  font-weight:600;
+  font-size: 77.76px;
+  line-height: 88px;
+  text-transform:none !important;
+}
+p {
+  font-family:$open-sans;
+}
+.button {
+  background: #EA7F19;
+  border-radius: 7px;
+  border: 1px solid #979797;
+  font-family: $lato;
+  font-weight:700;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-shadow:none;
+  height:51px;
+  display:flex;
+  max-width:325px;
+  align-items:center;
+  justify-content:center;
+  &:hover {
+    text-decoration:none;
+    background:#C56B15;
+  }
+}
+
+
+
+
+// My Dependencies //
+
+@import "dependencies/_navbar.scss";
+@import "dependencies/_slides.scss";
+
+// End My Dependencies //
 
