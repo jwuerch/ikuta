@@ -1,0 +1,26 @@
+.meet-the-doctor {
+  background-image:url('../images/bio.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  padding-top:30px;
+  background-position-x:20%;
+  .row-1 {
+    margin-bottom:50px;
+  }
+  p {
+    margin-bottom:50px;
+    color:#424242;
+    font-size:17px;
+  }
+  @media (max-width:1200px) {
+    background-image:none;
+    padding-top:60px;
+    .row-1 {
+      margin-bottom:0;
+    }
+    padding-bottom:0;
+  }
+  @media (max-width:768px) {
+    padding-top:30px;
+  }
+}
