@@ -1,0 +1,209 @@
+/** SPECIALS **/
+
+
+
+#specials  {
+  background:url(../images/specials-bg.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  h2 {
+    font-weight:900 !important;
+    font-size: 44px;
+    color: #FFFFFF;
+    line-height: 40px;
+    margin-bottom:10px;
+  }
+  h3 {
+    font-weight:600;
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-bottom:50px;
+  }
+
+  .three-blocks {
+    .specials-bottom {
+      text-align:center;
+      padding:7em 1em 0em 1em;
+      .save {
+        font-weight:400;
+        font-family:$lato;
+        font-size:20px;
+        text-align:center;
+        margin-bottom:10px;
+        letter-spacing: -0.25px;
+      }
+      .label {
+        font-family:$arimo;
+        font-size: 14px;
+        color: #999999;
+        font-weight:400;
+      }
+      .description {
+        line-height:25px;
+        font-weight:400;
+        margin-bottom:10px;
+        font-size: 17px;
+        color: #424242;
+        letter-spacing: -0.24px;
+      }
+    }
+    .specials-top {
+      border-radius:6px;
+      text-align:center;
+      padding:1em;
+      height:40%;
+      padding-bottom:50px;
+      margin-bottom:10px;
+      @media (max-width:991px) {
+        padding-bottom:75px;
+      }
+      @media (max-width:500px) {
+      }
+    }
+    .specials-bottom {
+      height:320px;
+      background: #FFFFFF;
+      border-radius: 6px;
+      @media (max-width:500px) {
+        height:350px;
+      }
+    }
+    .specials-circle-wrap {
+      text-align:center;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+
+    }
+    .specials-circle {
+      color:#FFF;
+      width:150px;
+      height:150px;
+      padding:1.2em;
+      position:relative;
+      margin:-100px 0;
+      border-radius: 9999px;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      box-shadow: 0 0 9px 0 rgba(0,0,0,0.26);
+
+    }
+    .dollar {
+      font-size:36px;
+      top:-25px;
+      left:-5px;
+      position:relative;
+      font-family:$lato;
+      color: #FFFFFF;
+      letter-spacing: -1.64px;
+
+    }
+    .price {
+      left:-5px;
+      position:relative;
+      font-weight:900;
+      font-family:$lato;
+      font-size: 84px;
+      color: #FFFFFF;
+      letter-spacing: -3.23px;
+
+    }
+    display:flex;
+    justify-content:space-between;
+    @media (max-width:991px) {
+      flex-wrap:wrap;
+      justify-content:center;
+    }
+    .block {
+
+    }
+    #block-1 {
+      .specials-top {
+        background:rgba(149, 213, 0, .7);
+      }
+      .specials-circle {
+        background: #92C717;
+
+
+
+      }
+      .save {
+
+        color:#72A105;
+      }
+    }
+    #block-2 {
+      .specials-top {
+        background:rgba(42, 159, 187, .7);
+      }
+      .specials-circle {
+        background:#2A9FBB;
+      }
+      .save {
+        color:#2A9FBB;
+      }
+    }
+    #block-3 {
+      .specials-top {
+        background:#009889;
+        background:rgba(0, 152, 137, .7);
+
+
+      }
+      .specials-circle {
+        background:#009889;
+      }
+      .save {
+        color:#009889;
+
+      }
+    }
+    .block {
+      width:33.3333%;
+      margin:1.3em;
+
+      h5 {
+        margin-top:10px;
+        margin-bottom:20px;
+        font-weight:700;
+        font-size: 36px;
+        color: #FFFFFF;
+        letter-spacing: -0.46px;
+        line-height: 30px;
+        @media (max-width:1200px) {
+          font-size:32px;
+        }
+
+      }
+
+      h6 {
+        margin-top:10px;
+        font-size: 36px;
+        margin-bottom:0;
+        color: #FFFFFF;
+        letter-spacing: -0.5px;
+        line-height: 30px;
+        font-weight:400;
+        @media (max-width:1200px) {
+          font-size:32px;
+        }
+        @media (max-width:991px) {
+          margin-bottom:10px;
+        }
+      }
+
+
+      @media (max-width:991px) {
+        width:60%;
+        align-self:center;
+      }
+      @media (max-width:767px) {
+        width:100%;
+        margin-left:0;
+        margin-right:0;
+      }
+    }
+  }
+}

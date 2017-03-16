@@ -1,6 +1,7 @@
 $open-sans: 'Open Sans', sans-serif;
 $arial: 'Arial', sans-serif;
 $lato: 'Lato', sans-serif;
+$arimo: 'Arimo', sans-serif;
 
 // Canvas Dependencies //
 
@@ -33,6 +34,12 @@ h2 {
   }
 }
 h3 {
+  font-family:$open-sans;
+}
+h4 {
+  font-family:$open-sans;
+}
+h6 {
   font-family:$open-sans;
 }
 h6 {
@@ -90,6 +97,8 @@ section {
 @import "dependencies/_slides.scss";
 @import "dependencies/_phone-slug.scss";
 @import "dependencies/_meet-the-doctor.scss";
+@import "dependencies/_meet-the-team.scss";
+@import "dependencies/specials.scss";
 
 // End My Dependencies //
 

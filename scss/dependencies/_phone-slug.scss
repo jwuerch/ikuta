@@ -4,6 +4,8 @@
   background-repeat:no-repeat;
   padding:20px 0;
   text-align:center;
+  border-bottom:5px solid #57A5B7;
+  border-top:5px solid #57A5B7;
   .row {
     text-align:center;
   }
@@ -31,5 +33,10 @@
 
   .button {
     margin-bottom:10px;
+  }
+  @media (max-width:991px) {
+    background-image: radial-gradient(50% 55%, #FFFFFF 4%, #E0F1F3 65%);
+    border-top:0;
+    border-bottom:0;
   }
 }
