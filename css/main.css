@@ -24406,7 +24406,11 @@ h1 {
 
 h2 {
   font-family: "Open Sans", sans-serif;
-  text-transform: none !important; }
+  text-transform: none !important;
+  font-weight: 600 !important;
+  font-size: 38px;
+  color: #46727C;
+  line-height: 40px; }
 
 h3 {
   font-family: "Open Sans", sans-serif; }
@@ -24416,12 +24420,12 @@ h6 {
 
 p {
   font-family: "Open Sans", sans-serif;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  font-size: 18px; }
 
 .button {
   background: #EA7F19;
   border-radius: 7px;
-  border: 1px solid #979797;
   font-family: "Lato", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -24440,8 +24444,21 @@ p {
           justify-content: center; }
   .button:hover {
     text-decoration: none;
-    background: #C56B15;
-    text-shadow: none; }
+    background: #ce7016;
+    text-shadow: none;
+    color: #FFF !important; }
+
+.phone-slug a:hover {
+  text-decoration: none;
+  color: inherit; }
+
+.button-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 #header.full-header #primary-menu > ul {
   border-right: none;
@@ -24637,5 +24654,32 @@ p {
 
 .mobile-slider img {
   width: 100%; }
+
+.phone-slug {
+  background-image: url("../images/bamboo-cta-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px 0;
+  text-align: center; }
+  .phone-slug .row {
+    text-align: center; }
+  .phone-slug .col-sm-12 {
+    text-align: center; }
+  .phone-slug p {
+    color: #526E6B;
+    margin-bottom: 0; }
+    @media (max-width: 480px) {
+      .phone-slug p {
+        font-size: 15px; } }
+  .phone-slug .new-hotline-phone {
+    font-size: 40px;
+    line-height: 35px !important;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    margin-bottom: 10px; }
+    .phone-slug .new-hotline-phone a {
+      color: #526E6B; }
+  .phone-slug .button {
+    margin-bottom: 10px; }
 
 /*# sourceMappingURL=main.css.map */

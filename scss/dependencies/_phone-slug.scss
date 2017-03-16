@@ -1,0 +1,35 @@
+.phone-slug {
+  background-image:url('../images/bamboo-cta-bg.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  padding:20px 0;
+  text-align:center;
+  .row {
+    text-align:center;
+  }
+  .col-sm-12 {
+    text-align:center;
+  }
+  p {
+    color: #526E6B;
+    margin-bottom:0;
+  @media (max-width:480px) {
+    font-size:15px;
+  }
+
+  }
+  .new-hotline-phone {
+    font-size: 40px;
+    line-height: 35px !important;
+    font-family: $lato;
+    font-weight: 900;
+    margin-bottom: 10px;
+    a {
+      color: #526E6B;
+    }
+  }
+
+  .button {
+    margin-bottom:10px;
+  }
+}
