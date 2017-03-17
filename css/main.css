@@ -25680,4 +25680,73 @@ img.mfp-img {
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
   opacity: 0; }
 
+.patient-forms {
+  padding: 30px 0; }
+  .patient-forms .container {
+    border: 2px solid #5F5B4A;
+    padding: 30px; }
+  .patient-forms h2 {
+    font-size: 44px;
+    font-weight: 900 !important;
+    color: #46727C;
+    margin-bottom: 20px; }
+  .patient-forms p {
+    color: #424242;
+    margin-bottom: 60px; }
+  .patient-forms .button-1 {
+    background: #92C717; }
+    .patient-forms .button-1:hover {
+      background: #88B915; }
+  .patient-forms .button-2 {
+    background: #2A9FBB; }
+    .patient-forms .button-2:hover {
+      background: #2691AB; }
+  .patient-forms .button-3 {
+    background: #009889; }
+    .patient-forms .button-3:hover {
+      background: #008376; }
+  .patient-forms .button {
+    font-size: 16px;
+    width: 350px; }
+  @media (max-width: 1200px) {
+    .patient-forms .button {
+      width: 300px; } }
+  @media (max-width: 991px) {
+    .patient-forms .button-wrap {
+      margin-bottom: 15px; }
+    .patient-forms .button {
+      width: 275px; }
+    .patient-forms h2 {
+      font-size: 36px; } }
+  @media (max-width: 480px) {
+    .patient-forms h2 {
+      font-size: 30px; } }
+
+.financing {
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.22);
+  padding: 30px 0 40px 0;
+  background-color: #EEF1F2; }
+  .financing h6 {
+    font-size: 24px;
+    color: #5D7278;
+    letter-spacing: 0;
+    font-weight: 400; }
+  .financing img {
+    max-width: 350px; }
+  .financing .col-1 {
+    text-align: right;
+    padding-right: 50px; }
+  .financing .col-2 {
+    text-align: left;
+    padding-left: 50px; }
+  @media (max-width: 991px) {
+    .financing .col-1, .financing .col-2 {
+      text-align: center;
+      padding: 0; }
+    .financing .col-1 {
+      margin-bottom: 20px; } }
+  @media (max-width: 480px) {
+    .financing img {
+      max-width: 300px; } }
+
 /*# sourceMappingURL=main.css.map */
