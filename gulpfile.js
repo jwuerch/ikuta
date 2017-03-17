@@ -137,7 +137,7 @@ gulp.task('watch', ['browserSync', 'sass-autoprefix'], function(){
 gulp.task('build', function (callback) {
     // Placed task 'useref' at end to ensure that sass-autoprefix will run first. To enable spriting, add in 'sprite' task.
     // Will error out if HTML validation or JS errors. To stop, remove 'validate' task.
-    runSequence('clean:dist', 'validate', 'sass-autoprefix', ['images', 'fonts'], 'useref',
+    runSequence('clean:dist', 'sass-autoprefix', ['images', 'fonts'], 'useref',
         callback
     );
 });
