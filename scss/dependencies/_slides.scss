@@ -143,7 +143,26 @@
 
 #slider, .swiper-container, .swiper-slide {
   max-height:800px;
+  padding:0;
 }
 .mobile-slider img {
   width:100%;
+}
+
+#slider > a > i {
+  background:#92C717;
+  color:#FFF;
+  width:35px;
+  height:35px;
+  border-radius:9999px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  &:hover {
+    color:#FFF;
+    text-decoration:none;
+  }
+}
+.one-page-arrow:hover {
+  text-decoration:none;
 }

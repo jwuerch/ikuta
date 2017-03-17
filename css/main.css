@@ -24670,10 +24670,33 @@ section {
         margin-bottom: 40px; } }
 
 #slider, .swiper-container, .swiper-slide {
-  max-height: 800px; }
+  max-height: 800px;
+  padding: 0; }
 
 .mobile-slider img {
   width: 100%; }
+
+#slider > a > i {
+  background: #92C717;
+  color: #FFF;
+  width: 35px;
+  height: 35px;
+  border-radius: 9999px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  #slider > a > i:hover {
+    color: #FFF;
+    text-decoration: none; }
+
+.one-page-arrow:hover {
+  text-decoration: none; }
 
 .phone-slug {
   background-image: url("../images/bamboo-cta-bg.jpg");
@@ -25135,7 +25158,8 @@ h4.modal-title {
     margin-bottom: 15px; }
   .no-insurance .button {
     margin-top: 60px;
-    max-width: 275px; }
+    max-width: 275px;
+    width: 325px; }
   @media (max-width: 1200px) {
     .no-insurance {
       background-image: none;
