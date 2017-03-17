@@ -194,3 +194,21 @@
     }
   }
 }
+#footer {
+  border-top:none;
+}
+#copyrights {
+  .col_full {
+    margin-bottom:0;
+  }
+  background:#033843;
+  color:#FFF;
+  font-size:16px;
+  font-family:$arimo;
+  a {
+    color:#FFF;
+    &:hover {
+      color:#FFF;
+    }
+  }
+}
