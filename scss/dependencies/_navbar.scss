@@ -31,6 +31,9 @@
   @media (max-width:768px) {
     text-align:left;
   }
+  @media (max-width:480px) {
+    max-width:200px;
+  }
 }
 
 #header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {

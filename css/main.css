@@ -24455,6 +24455,10 @@ p {
     background: #ce7016;
     text-shadow: none;
     color: #FFF !important; }
+  @media (max-width: 480px) {
+    .button {
+      max-width: 275px;
+      font-size: 16px; } }
 
 .phone-slug a:hover {
   text-decoration: none;
@@ -24508,6 +24512,10 @@ section {
 @media (max-width: 768px) {
   #logo {
     text-align: left; } }
+
+@media (max-width: 480px) {
+  #logo {
+    max-width: 200px; } }
 
 #header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
   padding-top: 39px;
@@ -25093,6 +25101,10 @@ h4.modal-title {
 .modal .close:hover {
   color: #000; }
 
+@media (max-width: 768px) {
+  .service-modal img {
+    display: none; } }
+
 .reviews {
   background-image: url("../images/reviews-bg.jpg");
   background-size: cover;
@@ -25368,6 +25380,17 @@ h4.modal-title {
       color: #6E6E6D;
       margin-top: 5px;
       letter-spacing: -0.5px; }
+  .smile-gallery .before-p {
+    padding-left: 50px; }
+    @media (max-width: 1200px) {
+      .smile-gallery .before-p {
+        padding-left: 0px; } }
+    @media (max-width: 991px) {
+      .smile-gallery .before-p {
+        padding-left: 125px; } }
+    @media (max-width: 768px) {
+      .smile-gallery .before-p {
+        padding-left: 0px; } }
 
 /* Magnific Popup CSS */
 .mfp-bg {

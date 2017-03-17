@@ -71,7 +71,7 @@
                     <li><a href="#" data-scrollto="#meet-the-doctor">
                         <div>Team</div>
                     </a></li>
-                    <li><a href="#" data-scrollto="#services">
+                    <li><a href="#" data-scrollto="#services" data-offset="200">
                         <div>Services</div>
                     </a></li>
                     <li><a href="#" data-scrollto="#smile-gallery">
@@ -806,14 +806,14 @@
                     <div class="col-md-6 col-1">
                         <h2>Smile Gallery</h2>
                         <p>Whether you require a minor cosmetic treatment or a total smile makeover, you can trust our doctors to provide the highest quality treatment available. Click on the button below to see some before and after examples of their work.</p>
-                        <a class="button" data-toggle="modal" data-target="#smile-gallery-modal">View Smile Gallery</a>
+                        <a class="button smile-button" data-toggle="modal" data-target="#smile-gallery-modal">View Smile Gallery</a>
                     </div>
 
                     <div class="col-md-6 col-2" data-toggle="modal" data-target="#smile-gallery-modal">
                         <div class="smile-before">
                             <img src="images/smile-gallery/danielle.png" alt="Danielle Smile Gallery">
                         </div>
-                        <div class="before-after-wrap"><p>Before</p><p>After</p></div>
+                        <div class="before-after-wrap"><p class="before-p">Before</p><p class="after-p">After</p></div>
 
                     </div>
                 </div>
@@ -1071,7 +1071,7 @@
 
         <section id="location" class="location">
             <div class="container">
-                <a href="#" data-scrollto="#header"><div class="img-wrap img-wrap-three hidden-lg hidden-md"><img src="images/ikuta-symbol.svg" alt="Ikuta Symbol"></div></a>
+                <div class="img-wrap img-wrap-three hidden-lg hidden-md"><a href="#" data-scrollto="#header"><img src="images/ikuta-symbol.svg" alt="Ikuta Symbol"></a></div>
                 <div class="row">
                     <div class="col-md-4 col-1">
                         <h6 class="h6-1">Deric Ikuta, DDS</h6>
@@ -1243,18 +1243,26 @@
 <script>
     var map;
     function initMap() {
-        var myLatLng = {lat: 36.599086, lng: -119.446154};
-        map = new google.maps.Map(document.getElementById('google-map'), {
-            center: myLatLng,
-            zoom: 17,
-            scrollwheel: false,
-            draggable: false,
-            disableDefaultUI: true
-        });
-        var marker = new google.maps.Marker({
-            position: myLatLng,
-            map: false,
-            marker:'Ikuta'
+        var myLatLng = '36.599086,-119.446154';
+        $('#google-map').gMap({
+            address: myLatLng,
+            maptype: 'ROADMAP',
+            zoom: 14,
+            markers: [
+                {
+                    address: myLatLng
+                }
+            ],
+            doubleclickzoom: false,
+            controls: {
+                panControl: false,
+                zoomControl: false,
+                mapTypeControl: false,
+                draggable: false,
+                scaleControl: false,
+                streetViewControl: false,
+                overviewMapControl: false
+            }
         });
     }
 </script>

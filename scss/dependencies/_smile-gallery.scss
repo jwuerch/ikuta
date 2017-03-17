@@ -45,6 +45,21 @@
 
     }
   }
+  .before-p {
+    padding-left:50px;
+    @media (max-width:1200px) {
+
+        padding-left:0px;
+
+    }
+    @media (max-width:991px) {
+      padding-left:125px;
+    }
+    @media (max-width:768px) {
+      padding-left:0px;
+    }
+  }
 }
+
 
 

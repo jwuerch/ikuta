@@ -33,6 +33,11 @@
         });
     };
 
+    // $('#smile-gallery-modal').on('shown.bs.modal', function() {
+    //     setTimeout(function() {
+    //         $('#oc-portfolio-3').show();
+    //     }, 1500)
+    // });
     var HWD = new HelloWorldDevs();
     HWD.mailForm('#mail-form', '#success_msg' , '7fb35345-752d-4792-9480-cd3db6674a62');
 
