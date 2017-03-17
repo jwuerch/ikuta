@@ -25782,7 +25782,7 @@ img.mfp-img {
     left: 0; }
   .location a:hover {
     text-decoration: none; }
-  .location .col-sm-4 {
+  .location .col-md-4 {
     text-align: center;
     margin: 10px 0;
     height: 420px; }
@@ -25851,9 +25851,57 @@ img.mfp-img {
     padding-bottom: 50px; }
   .location .col-3 h6 {
     font-size: 22px;
-    margin-bottom: 0;
+    margin-bottom: 40px;
     color: #FFF;
     line-height: 24px;
     padding-top: 70px; }
+  .location .col-3 .schedule {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .location .col-3 .schedule p {
+      margin-bottom: 0;
+      color: #FFF;
+      font-size: 20px; }
+    .location .col-3 .schedule .days p {
+      font-weight: 700;
+      margin-right: 20px; }
+    .location .col-3 .schedule .times p {
+      text-align: left; }
+  @media (max-width: 1200px) {
+    .location .button {
+      max-width: 275px;
+      font-size: 16px; } }
+  @media (max-width: 991px) {
+    .location {
+      padding: 90px 0 40px 0; }
+      .location .img-wrap-three {
+        position: absolute;
+        width: 100%;
+        top: -18%;
+        left: -.3%; }
+      .location .col-1, .location .col-2 {
+        border-right: none; }
+      .location .col-md-4 {
+        height: auto; }
+      .location .img-wrap-one {
+        top: -70%; }
+      .location .col-1 .h6-1 {
+        padding-top: 0; }
+      .location .col-1 .social-wrap {
+        padding-bottom: 0;
+        margin-bottom: 40px; }
+      .location .col-2 .img-wrap-two {
+        padding-top: 0; }
+      .location .col-2 .button-wrap {
+        padding-bottom: 0;
+        margin-bottom: 40px; }
+      .location .col-3 h6 {
+        padding-top: 0; } }
 
 /*# sourceMappingURL=main.css.map */
