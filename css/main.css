@@ -25720,7 +25720,10 @@ img.mfp-img {
       font-size: 36px; } }
   @media (max-width: 480px) {
     .patient-forms h2 {
-      font-size: 30px; } }
+      font-size: 30px; }
+    .patient-forms .button {
+      width: 275px;
+      min-width: 275px; } }
 
 .financing {
   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.22);
