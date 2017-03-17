@@ -24788,11 +24788,23 @@ section {
     color: #FFFFFF;
     line-height: 40px;
     margin-bottom: 10px; }
+    @media (max-width: 767px) {
+      #specials h2 {
+        font-size: 38px;
+        margin-bottom: 20px; } }
+    @media (max-width: 480px) {
+      #specials h2 {
+        font-size: 32px; } }
   #specials h3 {
     font-weight: 600;
     font-size: 32px;
     color: #FFFFFF;
-    margin-bottom: 50px; }
+    margin-bottom: 50px;
+    line-height: 40px; }
+    @media (max-width: 480px) {
+      #specials h3 {
+        font-size: 26px;
+        line-height: 35px; } }
   #specials .three-blocks {
     display: -webkit-box;
     display: -ms-flexbox;
