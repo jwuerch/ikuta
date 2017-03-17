@@ -25123,6 +25123,9 @@ h4.modal-title {
   background-size: cover;
   background-repeat: no-repeat;
   height: 800px; }
+  .services .col-lg-12.center {
+    position: relative;
+    top: -135px; }
   .services h2 {
     font-weight: 900 !important;
     font-size: 48px; }
@@ -25140,9 +25143,12 @@ h4.modal-title {
   @media (max-width: 1200px) {
     .services {
       height: auto;
-      background: none; }
+      background: #E7F3F1; }
       .services .row-2 {
-        margin-top: 15px; } }
+        margin-top: 15px; }
+      .services .col-lg-12.center {
+        position: relative;
+        top: 0px; } }
   @media (max-width: 991px) {
     .services h2, .services h3 {
       font-size: 36px;

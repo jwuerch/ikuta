@@ -3,7 +3,10 @@
   background-size:cover;
   background-repeat:no-repeat;
   height:800px;
-
+  .col-lg-12.center {
+    position:relative;
+    top:-135px;
+  }
   h2 {
     font-weight:900 !important;
     font-size:48px;
@@ -25,9 +28,13 @@
   }
   @media (max-width:1200px) {
     height:auto;
-    background:none;
+    background:#E7F3F1;
     .row-2 {
       margin-top:15px;
+    }
+    .col-lg-12.center {
+      position:relative;
+      top:0px;
     }
   }
   @media (max-width:991px) {
