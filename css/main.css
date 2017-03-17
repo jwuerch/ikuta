@@ -15791,8 +15791,6 @@ blockquote.pull-right {
   right: -18px; }
 
 .owl-carousel .owl-nav [class*=owl-]:hover {
-  background-color: #FFF !important;
-  color: #22687d !important;
   text-decoration: none; }
 
 .owl-carousel .owl-nav .disabled {
@@ -24991,11 +24989,11 @@ h4.modal-title {
   margin-bottom: 10px; }
 
 .smile-gallery-modal .owl-nav, .smile-gallery-modal .owl-prev, .smile-gallery-modal .owl-next {
-  background: #92C717 !important;
+  background-color: #92C717 !important;
   opacity: 1 !important;
   color: #FFF !important; }
   .smile-gallery-modal .owl-nav:hover, .smile-gallery-modal .owl-prev:hover, .smile-gallery-modal .owl-next:hover {
-    background: #92C717 !important;
+    background-color: #92C717 !important;
     color: #FFF !important; }
 
 .smile-gallery-modal .before-after-wrap {
