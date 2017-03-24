@@ -96,8 +96,12 @@ gulp.task('images', function() {        // Compresses all images.
 gulp.task('fonts', function() { // Moves all font files over to dist
     gulp.src('./fonts/**/*')
         .pipe(gulp.dest(config.build + 'fonts'));
-    return gulp.src('./css/fonts/**/*') // We do this also because the canvas template has fonts located in the css folder.
+    gulp.src('./css/fonts/**/*') // We do this also because the canvas template has fonts located in the css folder.
         .pipe(gulp.dest(config.build + 'css/fonts'));
+    gulp.src('./css/font-icons.css')
+        .pipe(gulp.dest(config.build + 'css/')); //Specifically for TS sites
+    gulp.src('./css/images/**/*')
+        .pipe(gulp.dest(config.build + 'css/images')); //Specifically for TS sites
 });
 
 gulp.task('html-lint', function () { // HTML linter
