@@ -24569,10 +24569,13 @@ section {
 .slide-1, .slide-2, .slide-3 {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 100% 100% !important; }
+  background-position: 0% 0% !important; }
 
 .slide-1 {
   background-image: url("../images/slide-1.jpg"); }
+  @media (max-width: 1470px) {
+    .slide-1 {
+      background-position: 100% 100% !important; } }
   .slide-1 h1 {
     color: #92C717;
     margin-bottom: 40px; }
@@ -24764,6 +24767,9 @@ section {
   @media (max-width: 768px) {
     .meet-the-doctor {
       padding-top: 30px; } }
+
+.meet-the-doctor-below img {
+  width: 100%; }
 
 .meet-the-team {
   padding: 30px 0;
@@ -25114,7 +25120,8 @@ h4.modal-title {
   .reviews h2 {
     font-weight: 900 !important;
     font-size: 44px;
-    margin-bottom: 50px; }
+    margin-bottom: 50px;
+    color: #FFF; }
   .reviews .bf-dv {
     padding-top: 50px !important; }
   .reviews .bf-spn {
@@ -25144,8 +25151,11 @@ h4.modal-title {
   background: url("../images/insurance.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 100% 100%;
+  background-position: 0% 0%;
   padding: 200px 0; }
+  @media (max-width: 1425px) {
+    .no-insurance {
+      background-position: 100% 100%; } }
   .no-insurance h2 {
     font-size: 64px;
     color: #46727C;
@@ -25224,11 +25234,19 @@ h4.modal-title {
   .services h2 {
     font-weight: 900 !important;
     font-size: 48px; }
+    @media (max-width: 767px) {
+      .services h2 {
+        text-align: left;
+        padding: 0 15px; } }
   .services p {
     font-size: 16px; }
     .services p a {
       text-decoration: underline;
       color: #5F8801; }
+  @media (max-width: 767px) {
+    .services .description-text {
+      text-align: left;
+      padding: 0 15px; } }
   .services h3 {
     font-size: 48px;
     font-weight: 900;
@@ -25341,7 +25359,7 @@ h4.modal-title {
   background: #2A9FBB; }
   .smile-gallery h2 {
     font-weight: 900 !important;
-    color: #46727C !important; }
+    color: #FFF !important; }
   .smile-gallery p {
     color: #424242;
     margin-bottom: 40px; }

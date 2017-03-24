@@ -2,8 +2,11 @@
   background:url('../images/insurance.jpg');
   background-size:cover;
   background-repeat:no-repeat;
-  background-position:100% 100%;
+  background-position:0% 0%;
   padding:200px 0;
+  @media (max-width:1425px) {
+    background-position:100% 100%;
+  }
   h2 {
     font-size:64px;
     color:#46727C;

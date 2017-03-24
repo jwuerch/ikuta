@@ -1,10 +1,13 @@
 .slide-1, .slide-2, .slide-3 {
   background-size:cover;
   background-repeat:no-repeat;
-  background-position:100% 100% !important;
+  background-position:0% 0% !important;
 }
 .slide-1 {
   background-image:url('../images/slide-1.jpg');
+  @media (max-width:1470px) {
+    background-position:100% 100% !important;
+  }
 
   h1 {
     color: #92C717;
