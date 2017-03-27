@@ -1,12 +1,12 @@
 .slide-1, .slide-2, .slide-3 {
   background-size:cover;
   background-repeat:no-repeat;
-  background-position:0% 0% !important;
 }
 .slide-1 {
   background-image:url('../images/slide-1.jpg');
-  @media (max-width:1470px) {
-    background-position:100% 100% !important;
+  background-position:0% 10% !important;
+  @media (max-width:1475px) {
+    background-position:100% 10% !important;
   }
 
   h1 {
@@ -31,7 +31,7 @@
     margin-bottom:20px;
   }
   @media (max-width:1200px) {
-    background-position:75% 100% !important;
+    background-position:75% 10% !important;
     .slider-caption {
       margin-top:-90px;
     }
@@ -48,10 +48,14 @@
       font-size:68px;
     }
   }
+  @media (max-width:1100px) {
+    background-position:75% 10% !important;
+  }
 
 }
 .slide-2 {
   background-image:url('../images/slide-2.jpg');
+  background-position:0% 0% !important;
   h2 {
     font-size: 54px;
     font-weight:900 !important;
@@ -80,11 +84,11 @@
   .button {
     max-width:250px;
   }
-  @media (max-width:1450px) {
-    background-position:50% 100% !important;
+  @media (max-width:1350px) {
+    background-position:50% 0% !important;
   }
   @media (max-width:1200px) {
-    background-position:60% 100% !important;
+    background-position:60% 0% !important;
     h2 {
       font-size:38px;
       line-height:50px;
@@ -93,10 +97,17 @@
       padding-right:100px;
     }
   }
+  @media (max-width:1050px) {
+    background-position:70% 0% !important;
+    p {
+      padding-right:55px;
+    }
+  }
 }
 
 .slide-3 {
   background-image: url('../images/slide-3.jpg');
+  background-position:0% 0% !important;
   h2 {
     font-weight:900 !important;
     font-size: 70px;
@@ -123,10 +134,8 @@
     max-width:275px;
   }
   @media (max-width:1500px) {
-    background-position:85% 100% !important;
   }
   @media (max-width:1200px) {
-    background-position:70% 100% !important;
     h2 {
       font-size:56px;
     }
@@ -140,6 +149,9 @@
     .monthly-fee {
       margin-bottom:40px;
     }
+  }
+  @media (max-width:1350px) {
+    background-position:72% 0% !important;
   }
 
 }

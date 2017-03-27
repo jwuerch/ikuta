@@ -212,3 +212,19 @@
     }
   }
 }
+
+.img-wrap-mobile {
+  max-width:300px;
+  margin:0 auto;
+  text-align:center;
+  margin-bottom:20px;
+  margin-top:-5px;
+  @media (max-width:400px) {
+    max-width:250px;
+  }
+}
+
+.img-wrap-desktop {
+  max-width:275px;
+  margin: 0 auto;
+}
